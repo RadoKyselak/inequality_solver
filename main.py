@@ -12,7 +12,7 @@ range_required = input("Are you fine with the range being (0, 20)? y/n:")
 
 def use_range():
     x_range = []
-    if range_required == "y":
+    if range_required == "n":
         x_range_str = input("Enter a range in the format (n, n):")
         return eval(x_range_str)
     else:
